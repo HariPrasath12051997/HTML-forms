@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .calculator {
+        width: 240px;
+        border: 2px solid black;
+        background-color: gray;
+        padding: 10px;
+        margin: 0 auto;
+      }
+      .calculator__display {
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 24px;
+        height: 50px;
+      }
+      .calculator__button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 24px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        background-color: black;
+        color: white;
+        
+        
+      }
+      .calculator__button--operator {
+        background-color: yellow;
+        color: black;
+        
+      }
+      .calculator__button--clear {
+        background-color: #f00;
+        color: #fff;
+      }
+      .calculator__button1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 24px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        background-color: green;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calculator__display">
+        0
+      </div>
+      <div class="calculator__row">
+        <button class="calculator__button">7 </button>
+        <button class="calculator__button">8</button>
+        <button class="calculator__button">9</button>
+        <button class="calculator__button calculator__button--operator">+</button>
+        
+      </div>
+      <div class="calculator__row">
+        <button class="calculator__button">4</button>
+        <button class="calculator__button">5</button>
+        <button class="calculator__button">6</button>
+        <button class="calculator__button calculator__button--operator">-</button>
+        
+      </div>
+      <div class="calculator__row">
+        <button class="calculator__button">1</button>
+        <button class="calculator__button">2</button>
+        <button class="calculator__button">3</button>
+        
+        <button class="calculator__button calculator__button--operator">*</button>
+      </div>
+      <div class="calculator__row">
+        <button class="calculator__button calculator__button--clear">C</button>
+        <button class="calculator__button">0</button>
+        <button class="calculator__button1" >=</button>
+        <button class="calculator__button calculator__button--operator">/</button>  
+        
+      </div>
+      <div class="calculator__row">
+        
+      </div>
+    </div>
+  </body>
+</html>
